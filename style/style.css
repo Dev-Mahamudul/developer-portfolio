@@ -112,10 +112,10 @@ text-align: left;
     border: none;
     background: rgb(253, 110, 10);
     color: rgb(255, 255, 255);
-font-size: 14px;
-font-weight: 700;
-text-align: center;
-margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .banner-image> img{
@@ -238,3 +238,70 @@ background: rgb(255, 248, 243);
 }
 /* end skills */
 
+/* start education and experience */
+.resume{
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-template{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.resume-header{
+    color: rgb(24, 24, 24);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.resume-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.education, .edu-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.edu-box > small{
+    width: 511px;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    font-weight: 400;
+}
+.experience, .exp-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.exp-box > small{
+    width: 511px;
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    font-weight: 400;
+}
+.resume-template > button{
+    width: 200px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+/* end education and experience */
